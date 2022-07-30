@@ -1,0 +1,9 @@
+<?php
+if($this->session->userdata('email')){
+	include('header.php');
+	include('sidebar.php');
+}
+include('head.php');
+$this->load->view($isi_konten);
+include('footer.php');
+?>

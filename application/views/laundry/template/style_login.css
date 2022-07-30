@@ -1,0 +1,76 @@
+.form-login{
+	margin-left:80px;
+	margin-top:-50px;
+}
+.form-login img{
+	margin-left:30px;
+	margin-top:200px;
+	width:500px;
+	height:150px;
+}
+.judul{
+	margin-top:-120px;
+}
+.judul .text1{
+	margin-left:860px;
+	color:white;
+	font-size:25px;
+}
+.judul .text2{
+	margin-left:830px;
+	color:white;
+	font-size:25px;
+}
+.garis{
+	height:400px;
+	margin-left:500px;
+	width:500px;
+	border:5px solid;
+	border-color:lightblue;
+	margin-top:40px;
+	padding:20px;
+	text-align:center;
+	font-size:30px;
+}
+.garis .formulir{
+	margin-left:0px;
+	margin-top:30px;
+}
+.form{
+	height:auto;
+	margin-left:500px;
+	width:500px;
+	border:5px solid;
+	border-color:lightblue;
+	margin-top:40px;
+	padding:20px;
+	text-align:center;
+	font-size:30px;
+}
+.formulir{
+	margin-top:30px;
+}
+.formulir input{
+	width:290px;
+	height:40px;
+	border-color:black;
+	border-radius:10px;
+	font-size:20px;
+	margin:10px;
+}
+.formulir hr{
+	border-width:3px;
+	border-color:black;
+}
+.formulir a{
+	font-size:17px;
+}
+form small{
+	font-size:25px;
+}
+form table{
+	margin-left:20px;
+}
+form button{
+	margin:5px;
+}

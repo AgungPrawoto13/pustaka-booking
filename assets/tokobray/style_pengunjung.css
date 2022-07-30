@@ -1,0 +1,635 @@
+#wrapper{
+	background:#e9ecef;
+	height:auto;
+	width:100%;
+}
+/*header*/
+#header{
+	background-color:white;
+	width:100%;
+	height:auto;
+	position:fixed;
+}
+.navigasi{
+	float:right;
+	margin-right:20px;
+	margin-top:15px;
+}
+.navigasi li{
+	display:inline;
+	padding:5px;
+}
+li a{
+	color:black;
+	font-size:17px;
+	font-weight:bold;
+}
+.navigasi .sub{
+	display:show;
+}
+.sub li input{
+	width:100px;
+}
+#cari{
+	margin-left:82%;
+	background-color:transparent;
+	border-color:transparent;
+}
+#cari input{
+	width:69%;
+}
+/*close*/
+
+/*content*/
+#logo .pindah{
+	margin-top:4%;
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+/*.gambar{
+	margin-left:-40px;
+}*/
+.gambar img{
+	margin-top:220px;
+	width:49.80%;
+	height:300px;
+}
+.model{
+	width:82%;
+	margin:auto;
+	margin-top:6%;
+}
+.model img{
+	width:32%;
+	margin:90px;
+}
+.teks{
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+}
+.baju_baru{
+	margin-top:5%;
+}
+.baju_baru img{
+	width:20%;
+	padding:1%;
+}
+.baju_baru .harga{
+	font-size:20px;
+}
+.harga span{
+	padding:85px;
+}
+/*close*/
+
+/*daftar*/
+#content{
+	padding:50px;
+}
+#tampilan_login{
+	margin:auto;
+	background-image:url(./img/model3.jpeg);
+	background-repeat:no-repeat;
+	width:60%;
+	height:auto;
+	margin-top:150px;
+	background-size:contain;
+}
+.gambar_login{
+	width:45%;
+	height:350px;
+}
+/*.form{
+	height:auto;
+}*/
+.form1{
+	width:50%;
+	height:auto;
+	margin-left:42%;
+	margin-top:2%;
+	background:white;
+}
+/*.form{
+	width:50%;
+	height:auto;
+	margin-left:42%;
+	margin-top:2%;
+	background:white;
+}*/
+.form1 span, .form span{
+	color:black;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	margin-left:32%;
+}
+.form_daftar{
+	margin-top:-4%;
+}
+/*.form_isi{
+	padding:10px;
+}*/
+.form1 .form_isi{
+	
+	width:100%;
+	height:auto;
+}
+.form_isi .isi1 input{
+	width:40.60%;
+	margin:13px;
+	border:none;
+	border-bottom:1px solid;
+}
+.form_isi .isi2 input{
+	width:90%;
+	margin:3% 4%;
+	border:none;
+	border-bottom:1px solid;
+}
+.form_isi .isi3{
+	margin:2%;
+}
+.simpan_login{
+	margin:7% 28%;
+	width:50%;
+}
+/*.form_isi .simpan{
+	margin:0% 26%;
+	width:50%;
+}*/
+.form_isi input{
+	margin:5px;
+}
+.isi2_login label{
+	margin-left:2%;
+	margin-top:2%;
+}
+.isi2_login input{
+	border:none;
+	border-bottom:1px solid;
+	width:97%;
+}
+.isi2_login{
+	margin:-3% auto;
+}
+/*.isi2_lupa{
+	width:92%;
+}*/
+.pengait {
+	width:57%;
+	margin:-5% auto;
+	text-align:center;
+	padding:6%;
+}
+/*.pengait_daftar{
+	width:48%;
+	margin:2% auto;
+	padding:10px;
+}*/
+.pengait .tes{
+	margin-left:18%;
+}
+.pengait_lupa {
+	width:46%;
+	margin:-5% auto;
+}
+/*close*/
+
+/*prodak*/
+#prodak{
+	width:95%;
+	margin-top:8%;
+	margin-left:2%;
+}
+#prodak img{
+	width:19%;
+	padding:10px;
+}
+.nama_prodak{
+	text-align:center;
+	background:white;
+	width:13%;
+	margin:1%;
+}
+.nama_prodak span{
+	font-size:22px;
+}
+.prodak1{
+	width:100%;
+	margin:1%;
+}
+.harga_prodak1 span{
+	padding:6.30%;
+	font-size:16px;
+	font-weight:bold;
+}
+.prodak2{
+	width:100%;
+	margin:1%;
+	margin-top:3%;
+}
+.info{
+	background:white;
+	width:21%;
+	height:auto;
+	float:right;
+	margin-top:-61%;
+}
+.detail_info{
+	margin:2% 1%;
+	width:70%;
+}
+.detail_info input[name="harga"],
+.detail_info input[name="sampai"],
+.form_kontak input[name="email"],
+.form_kontak input[name="nama"],
+.data_toko input[name="email_kami"],
+.data_toko input[name="nomor_kami"]{
+	width:75%;
+	margin:0px 20px;
+	border:none;
+	border-bottom:1px solid black;
+	color:#333;
+}
+.detail_info .disabled, .warna{
+	margin-left:20px;
+}
+.detail_info input[disabled]{
+	width:15%;
+	text-align:center;
+	color:black;
+}
+.detail_info label[for="harga_dari"]{
+	margin-left:20px;
+}
+.detail_info label[for="sampai"],
+.detail_info label[for="ukuran"],
+.detail_info label[for="warna"]{
+	margin-left:20px;
+	margin-top:14px;
+}
+.detail_info input[name="merah"]{
+	width:26%;
+	background:red;
+}
+.detail_info input[name="biru"]{
+	background:blue;
+	width:26%;
+}
+.detail_info input[name="hijau"]{
+	background:green;
+	width:26%;
+}
+/*close*/
+
+/*katalog*/
+#katalog{
+	margin:auto;
+	width:60%;
+	height:auto;
+	margin-top:150px;
+}
+#katalog .gambar_katalog{
+	width:80%;
+}
+.gambar_katalog img{
+	width:40%
+}
+.gambar_katalog .info_prodak{
+	float:right;
+	margin-right:177px;
+	width:30%;
+	margin-top:24px;
+}
+.info_prodak span[name="harga"]{
+	display:inline-block;
+	margin-top:50px;
+}
+.gambar_katalog span{
+	margin-left:21.52%;
+	font-size:20px;
+	font-size:23px;
+	font-weight:bold;
+}
+.aksi{
+	width:63%;
+	float:right;
+	margin-top:-22%;
+}
+.gambar_katalog .tombol{
+	width:63%;
+	float:right;
+	margin-top:-11%;
+	margin-right:-9%;
+}
+
+.tombol a{
+	margin:5px;
+}
+/*close*/
+
+/*kontak*/
+#kontak{
+	margin-top:9%;
+}
+#kontak .judul{
+	text-align:center;
+	font-size:143%;
+}
+.form_kontak{
+	background: white;
+	width: 66%;
+	border: 1px solid;
+	padding: 3%;
+	margin:auto;
+	margin-top:2%;
+}
+.form_kontak label{
+	padding:1%;
+}
+.form_kontak span{
+	margin-left:7%;
+}
+.form_kontak textarea{
+	margin:7% 7%;
+	border:1px solid;
+	border-radius:10px;
+	height:100px;
+}
+.form_kontak .tombol_kontak, .form_isi .tombol, .tombol_keranjang{
+	width:23%;
+	margin:auto;
+}
+.form_kontak .data_toko{
+	float:right;
+	margin-top:-19.62%;
+	margin-right:-3%;
+}
+/*close*/
+
+/*tentang*/
+#kontak img[name="tentang"]{
+	width:46%;
+	height:271px;
+	padding:15px;
+}
+.kata-kata{
+	width:62%;
+	float:right;
+	margin-top:-22%;
+}
+.kata-kata textarea{
+	float:right;
+	margin-top:2.5%;
+	width:88%;
+	height:242px;
+	color:black;
+	background-color:#fff;
+}
+/*close*/
+
+/*pembelian*/
+.pengisian_beli{
+	width:43%;
+	margin-top:0%;
+}
+.pengisian_beli1{
+	float:right;
+	margin-top:-30.62%;
+	margin-right:8%;
+}
+.pengisian_beli2{
+	float:right;
+	margin-top:-35.62%;
+	margin-right:8%;
+}
+.atur{
+	width:60%;
+	margin-top:-4%;
+	margin:auto;
+	margin-top:-2%;
+}
+.atur img{
+	margin-left:25%;
+}
+.pengisian_beli label, .pengisian_beli1 label, .pengisian_beli2 label{
+	font-weight:bold;
+}
+.pengisian_beli input[id="otomatis"], .pengisian_beli select{
+	display:grid;
+	width:35%;
+	margin-top:-13%;
+	margin-left:45%;
+}
+.pengisian_beli1 input[id="otomatis"]{
+	display:grid;
+	width:77%;
+	margin-top:-13%;
+	margin-left:45%;
+}
+.pengisian_beli1 input[name="jumbel"], .pengisian_beli input[name="ukuran"]{
+	width:20%;
+}
+.pengisian_beli input[disabled], .pengisian_beli1 input[disabled], .pengisian_beli2 input[disabled]{
+	border-color:transparent;
+	background-color:transparent;
+	color:#151212;
+	width:51%;
+}
+.pengisian_beli1 textarea{
+	margin-left:45%;
+	margin-top:-11%;
+	height:10%;
+}
+.tombol_beli{
+	width:33%;
+	margin:auto;
+	margin-top:4%;
+}
+.garis hr{
+	margin-top:6%;
+	border-width:3px;
+	width:100%;
+	border-color:black;
+}
+/*close*/
+
+/*pembayaran*/
+.form_pembayaran{
+	background: white;
+	width: 35%;
+	border: 1px solid;
+	padding: 3%;
+	margin:auto;
+	margin-top:2%;
+}
+#kontak .alert{
+	width:100%;
+	margin:auto;
+}
+.form_pembayaran .pembayaran2{
+	float:right;
+	margin-top:-26%;
+}
+.form_pembayaran .total_bayar{
+	
+	margin-top:10%;
+	text-align:center;
+}
+.form_pembayaran .pengingat{
+	width:66%;
+	margin:auto;
+	font-size:20px;
+	padding:21px;
+	margin-top:-3%;
+}
+.form_pembayaran .cara_bayar{
+	margin:auto;
+	font-size:20px;
+	padding:21px;
+	margin-top:-7%;
+	text-align:center;
+}
+/*close*/
+
+/*keranjang*/
+#kontak img[name="gambar_keranjang"]{
+	width:75%;
+	height:130px;
+}
+#kontak .pindah{
+	width:100%;
+	margin:2% auto;
+	text-align:center;
+}
+.form_belanja{
+	background: white;
+	width: 90%;
+	border: 1px solid;
+	padding: 3%;
+	margin:auto;
+	margin-top:2%;
+}
+.form_belanja td[name="refresh"]{
+	
+}
+/*close*/
+
+/*profile*/
+.prodak_baru{
+	width:62%;
+	margin:auto;
+}
+.prodak_baru img{
+	padding:1%;
+	width:24%;
+}
+hr[name="garis"]{
+	border-width:3px;
+	border-color:black;
+	width:66%;
+}
+.form_kontak .gambar_user{
+	width:26%;
+	margin:auto;
+}
+.nama_user{
+	width:65%;
+	margin:auto;
+	font-weight:bold;
+	font-size:22px;
+}
+.aktivitas{
+	width:97%;
+	margin:auto;
+	padding:3%;
+}
+.aktivitas a{
+	margin:8%;
+}
+.pengisian_beli .kiri{
+	
+}
+/*close*/
+
+/*footer*/
+#footer{
+	margin-top:10%;
+}
+.kotak{
+	width:100%;
+	height:auto;
+	background-color:black;
+	padding:20px;
+}
+.kotak .gambar{
+	position:relative;
+	width:200px;
+	height:80px;
+	background-image: url(./img/localkecil.jpeg);
+	background-repeat:no-repeat;
+	border:1 solid;
+	border-radius:10px;
+	margin-left:20px;
+	margin-top:30px;
+}
+.tautan{
+	color:white;
+	text-align:center;
+	margin-top:-120px;
+	font-size:20px;
+}
+.link{
+	color:white;
+	text-align:center;
+	padding:20px;
+	font-size:15px;
+}
+.link a{
+	padding:30px;
+	color:white;
+}
+.link1{
+	color:white;
+	text-align:center;
+	font-size:15px;
+	padding:10px;
+}
+.link1 a{
+	padding:43px;
+	color:white;
+}
+.kontak{
+	color:white;
+	font-size:20px;
+	float:right;
+	margin-top:-132px;
+	margin-right:10px;
+}
+.kata1{
+	margin-left:150px;
+	font-size:20px;
+}
+.kata2{
+	padding:10px;
+	margin-left:45px;
+	font-size:15px;
+}
+.kata3{
+	padding:10px;
+	font-size:15px;
+}
+.tutup{
+	color:white;
+	text-align:center;
+}
+i{
+	padding:10px;
+}
+hr{
+	background-color:white;
+	width:1270px;
+}
+/*close*/

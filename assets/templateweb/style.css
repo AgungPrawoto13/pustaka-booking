@@ -1,0 +1,37 @@
+body{
+	margin:0;
+}
+#wrapper{
+	width:100%;
+}
+#header{
+	background:green;
+	width:auto;
+	height:auto;
+	padding:1%;
+}
+.isi_header{
+	background:black;
+	width:auto;
+	height:auto;
+	padding:1%;
+}
+.navigasi{
+	background:white;
+	width:auto;
+	height:auto;
+	padding:1%;
+	overflow: hidden;
+}
+.isi_navigasi{
+	width: 100%;
+}
+.isi_navigasi ul{
+	list-style: none;
+	display: ruby-base-container;
+	margin:0;
+}
+.isi_navigasi li{
+	padding: 1%;
+	display: initial;
+}

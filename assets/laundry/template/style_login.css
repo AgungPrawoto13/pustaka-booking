@@ -1,0 +1,95 @@
+.content{
+	padding:36px;
+}
+.form-login{
+	margin:auto;
+	width:29%;
+	padding:1px;
+}
+.gambar_login{
+	background-image:url('../mesin cuci.jpeg');
+	width:100%;
+	height:209px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.gambar_login .text{
+	color:white;
+	font-size:20px;
+	text-align: center;
+	float:right;
+	margin-top:85px;
+	width:36%;
+}
+.garis{
+	height:400px;
+	margin-left:500px;
+	width:500px;
+	border:5px solid;
+	border-color:lightblue;
+	margin-top:40px;
+	padding:20px;
+	text-align:center;
+	font-size:30px;
+}
+.garis .formulir{
+	margin-left:0px;
+	margin-top:30px;
+}
+.form{
+	height:auto;
+	width:100%;
+	border:5px solid;
+	border-color:lightblue;
+	margin-top:0px;
+}
+.login{
+	font-size:27px;
+	font-weight:bold;
+	width:53%;
+	margin:auto;
+	margin-top:13px;
+	text-align:center;
+}
+.formulir{
+	width:97%;
+	margin:auto;
+	margin-top:13px;
+	padding:12px;
+}
+.label input{
+	width:67%;
+	height:40px;
+	border-color:black;
+	border-radius:10px;
+	font-size:17px;
+	margin:-3px 1px;
+	float:right;
+}
+.label .ukuran{
+	display:inline-block;
+	width:67%;
+	margin-left:114px;
+	font-size:20px;
+}
+.input_label{
+	width:69%;
+	float:right;
+	margin-top:-12px;
+}
+.formulir hr{
+	border-width:3px;
+	border-color:black;
+}
+.formulir a{
+	font-size:17px;
+}
+.formulir .tombol{
+	width:50%;
+	margin:auto;
+	text-align: center
+}
+
+form button{
+	margin:5px;
+}

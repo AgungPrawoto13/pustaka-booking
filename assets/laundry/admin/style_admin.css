@@ -1,0 +1,282 @@
+/*tampilan admin*/
+body{
+	background-color:#e9ecef;
+}
+ul,
+ul li,
+ul li ul{
+	list-style:none outside none;
+	padding:0;
+	margin:0;
+}
+
+#wrapper{
+	position:fixed;
+	width:101%;
+}
+.header{
+	background:lightblue;
+	height:80px;
+	margin-left:-5%;
+}
+.text1{
+	margin-left:140px;
+	padding:20px;
+	font-size:18px;
+	color:white;
+}
+.text2{
+	float:right;
+	margin-top:-50px;
+	font-size:18px;
+	color:white;
+	margin-right:130px;
+}
+.header i{
+	float:right;
+	margin:-50px 90px;
+}
+i{
+	color:blue;
+}
+.judul{
+	float:right;
+	margin-right:695px;
+	margin-top:92px;
+}
+.judul b{
+	font-size:20px;
+}
+
+/*sidebar*/
+#sidebar{
+	background:white;
+	width:24%;
+	height:730px;
+	position:absolute;
+}
+ul{
+	padding:30px;
+}
+li a{
+	width:410px;
+}
+a i{
+	float:left;
+}
+a b{
+	font-size:20px;
+	margin-left:25px;
+	padding-top:5px; 
+	float:left;
+}
+a .text1{
+	color:blue;
+	margin-left:-90px;
+	padding:20px;
+	font-size:18px;
+	float:left;
+}
+#menu hr{
+	border-width:3px;
+	border-color:black;
+	width:250px;
+	margin-left:10px;
+	margin-top:10px;
+	margin:10px;
+}
+#menu >li >a.tutup::after{
+	position:absolute;
+	right:30px;
+	margin-top:2px;
+}
+#menu >li >a.tutup:hover,
+#menu >li >a.tutup.buka{
+	color: #333;
+}
+#menu >li >a.tutup.buka::after{
+	margin-top:50px;
+}
+#menu >li >a.btn{
+	width:260px;
+}
+.sub{
+	display:none;
+	background-color:lightblue;
+	width:260px;
+	border:1px solid;
+	border-radius:10px;
+	border-color:transparent;
+	margin:10px 0px;
+}
+.sub a{
+	position:relative;
+	display:block;
+	margin:0 auto;
+	width:212px;
+	text-indent:0px;
+	line-height: 39px;
+}
+.sub .btn{
+	width:250px;
+	margin-left:3px;
+}
+.sub li a h5{
+	text-align:left;
+}
+
+/*close*/
+
+/*content*/
+.content{
+	background:white;
+	width:auto;
+	height:auto;
+	float:left;
+	margin:auto;
+	margin-left:365px;
+	margin-top:20px;	
+}
+.content .content1{
+	padding:10px 30px;
+	width:950px;
+}
+.content .content2{
+	padding:10px 30px;
+	width:auto;
+}
+.content .pembuka{
+	color:blue;
+	font-size:20px;
+}
+.content1 .atas b{
+	color:blue;
+	font-size:20px;
+}
+.atas .pembuka{
+	font-size:15px;
+}
+.content1 .bawah{
+	font-size:15px;
+	color:;
+}
+.bawah img{
+	margin:10px;
+	margin-left:-10px;
+}
+
+.bawah .info .harga{
+	float:right;
+	margin-top:-135px;
+	margin-right:550px;
+}
+.bawah1 b{
+	float:right;
+	font-size:15px;
+	margin-top:-300px;
+	margin-right:90px;
+}
+.bawah1 img{
+	float:right;
+	margin-top:-270px;
+	margin-right:200px;
+}
+.bawah1 .satu b{
+	margin:-230px 60px;
+
+}
+.satu b{
+	float:right;
+	font-size:15px;
+	margin-top:70px;
+}
+.bawah1 .info1 b{
+	margin-top:-160px;
+	margin-right:240px;
+}
+.info1 .harga1 b{
+	margin-right:100px;
+}
+/*close*/
+
+/*form_transaksi*/
+.form{
+	width:70%;
+	margin:auto;
+	padding-top:26px;
+}
+.form_transaksi{
+	width:100%;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+.isi span[name="label"],
+.isi .pesan{
+	display:grid;
+	margin-top:-3px;
+	width:50%;
+	float:right;
+}
+.transaksi{
+	color:blue;
+	font-size:15px;
+	margin:20px;
+	margin-top:-35px;
+	padding:10px;
+}
+.formatas{
+	margin-top:-20px;
+}
+.bawah .formatas b{
+	margin-left:300px;
+}
+.formatas .asd{
+	font-size:20px;
+}
+.form input{
+	width:300px;
+}
+.form .isi{
+	padding:5px;
+}
+.form .tombol{
+	padding:2%;
+	text-align:center;
+}
+.isi .paket1, .isi .paket2{
+	margin-left:62%;
+	margin-top:-23%;
+	background:transparent;
+	border-color:transparent;
+}
+.isi select[name="jenis"]{
+
+}
+/*close*/
+
+/*data belum bayar*/
+.cari{
+	padding:10px;
+	margin-left:-10px;
+}
+.cari input{
+	width:130px;
+	height:25px;
+}
+.isitransaksi{
+	width:auto;
+}
+.tambah span{
+	width:100%;
+	text-align:center;
+	margin-top:-27px;
+	float:right;
+	font-weight:bold;
+	font-size:21px;
+}
+
+/*close*/
+.fa-hand-point-down{
+	color:lightblue;
+}

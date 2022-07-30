@@ -1,0 +1,15 @@
+body{
+	background:lightblue;
+}
+#wrapper{
+	margin:1%;
+}
+#login{
+	margin:1%;
+	border:1px solid;
+	width: 14%;
+	height:auto;
+}
+.isi_tampilan{
+	padding:6%;
+}

@@ -1,0 +1,18 @@
+{
+	"Menu" :[
+		{
+			"Cheese crackling":10000,
+			"Potato Pom":20000,
+			"Richoco ice cream cup":300000,
+			"Cookies and cream cake in cup":400000,
+			"gambar":"gambar"
+		},
+		{
+			"Hot & Spicy chicken":10000,
+			"Fire chicken":20000,
+			"Richicken":30000,
+			"Nasi":40000,
+			"gambar":"gambar"
+		}
+	]
+}

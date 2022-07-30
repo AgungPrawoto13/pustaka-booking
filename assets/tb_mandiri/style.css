@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.nunito{
+	font-family: Nunito;
+	font-size: 20px;
+}
+.nunito1{
+	font-size: 36px;
+	font-family: Nunito;
+}
+.nunito2{
+	font-size: 24px;
+	font-family: Nunito;
+}
+.nunito3{
+	font-size: 18px;
+	font-family: Nunito;
+}
+.roboto{
+	font-size: 36px;
+	font-family: Roboto;
+}
+.roboto1{
+	font-size: 24px;
+	font-family: Roboto;
+}
+.roboto2{
+	font-size: 20px;
+	font-family: Roboto;
+}
+.roboto3{
+	font-size: 18px;
+	font-family: Roboto;
+}
+.carousel-inner{
+	width: 40%;
+	margin:auto;
+}
+.carousel-caption{
+	margin-top: 20%;
+}
+.noto-sans{
+	font-family: Noto Sans;
+	font-size: 28px;
+}
+.noto-sans1{
+	font-family: Noto Sans;
+	font-size: 40px;
+}
+.noto-sans2{
+	font-family: Noto Sans;
+	font-size: 36px;
+}
+.noto-sans3{
+	font-family: Noto Sans;
+	font-size: 18px;
+}
+.noto-sans4{
+	font-family: Noto Sans;
+	font-size: 20px;
+}
+.sans-pro{
+	font-family: Source Sans Pro;
+	font-size: 16px;
+}
+.sans-pro1{
+	font-family: Source Sans Pro;
+	font-size: 13px;
+}
+.sans-pro2{
+	font-family: Source Sans Pro;
+	font-size: 16px;
+}
+.propins{
+	font-family: Poppins;
+	font-size: 18px;
+}
+.col-md-8 img, .col-md-6 img{
+	width: 728px;
+}
+.col-md-12 .produk{
+	max-height: 161px;
+}
+.col-md-6 .card{
+	padding:5%;
+	margin-top: 15%;
+}
+.isi{
+	height: auto;
+	margin-top: 40%;
+	font-family: 'Noto Sans', sans-serif; 
+}
+.carousel-item img{
+	height: 300px;
+}
+.jumbotron{
+	width: auto;
+}
+.carousel-control-prev, .carousel-control-next{
+	width: 2%;
+	height: 22px;
+	margin:auto;
+}
+.icon{
+	max-height: 68px;
+}
+.col-md-9{
+	margin-top: 12%;
+}
+html,body{
+	scroll-behavior: smooth;
+}

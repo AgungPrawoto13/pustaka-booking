@@ -1,0 +1,358 @@
+/*admin_kepala*/
+body{
+	background:#e9ecef;
+}
+#header{
+	float:right;
+	width:100%;
+	height:auto;
+	background:white;
+	position:fixed;
+}
+#header img{
+	width:10%;
+	height:81px;
+	float:right;
+}
+#header i{
+	float:right;
+	margin:1.50% -1%;
+}
+hr[name="hitam"]{
+	border:1px solid;
+	border-color:black;
+}
+/*close*/
+
+/*sidebar*/
+#sidebar{
+	width:16%;
+	height:auto;
+	background:white;
+	position:fixed;
+}
+#sidebar .gambar_admin{
+	width:50%;
+	margin:13% auto;
+}
+#sidebar img{
+	width:87%;
+	margin-left:7%;
+}
+#sidebar .tombol{
+	padding:5%;
+	margin-top:-15%;
+}
+#sidebar span,span[name="tahun"], span[name="bulan"]{
+	font-weight:bold;
+	display:inline-block;
+	width:94%;
+	text-align:center;
+	color:black;
+	padding:2%;
+}
+/*close*/
+
+/*admin gudang*/
+
+/*close*/
+
+/*isi*/
+
+#isi{
+	width:81%;
+	height:auto;
+	margin:0% 18%;
+	padding:10% 1%;
+}
+#isi .isinya{
+	width:100%;
+	margin:10% 0%;
+}
+.isinya .omset{
+	width:13%;
+	height:auto;
+	background:#6aabff;
+	margin:auto;
+}
+.isinya .chat{
+	width:13%;
+	height:auto;
+	background:#6aabff;
+	margin:0% 18%;
+}
+.isinya .user{
+	width:32%;
+	height:52px;
+	background:white;
+	float:right;
+	margin:-7.40% 35%;
+}
+.isinya .cek{
+	width:13%;
+	height:auto;
+	background:#6aabff;
+	margin:-9.40% 20%;
+	float:right;
+}
+.user i{
+	display:inline-block;
+	margin:2% 2%;
+	width:45%;
+	color:#6aabff;
+}
+.user span{
+	font-size:20px;
+	margin-left:6%;
+}
+a i[name="pintasan"]{
+	padding:13%;
+	margin:0% 25%;
+	color:white;
+}
+span[name="judul"]{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	color:white;
+	padding:6%;
+}
+
+/*close*/
+
+/*stok barang*/
+.kotak{
+	width:100%;
+	height:auto;
+	background:white;
+	padding:0.2%;
+}
+/*close*/
+
+/*riwayat jual*/
+.riwayat{
+	width:100%;
+	height:auto;
+	padding:1.70%;
+}
+.tanggal{
+	width:12%;
+	height:auto;
+	background:white;
+}
+.jam{
+	width:12%;
+	height:auto;
+	background:white;
+	margin:-3.8% 13%;
+}
+span[name="date"]{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	color:black;
+	padding:6%;
+}
+.isi_riwayat{
+	width:69%;
+	height:auto;
+	background:white;
+	margin:5% 0%;
+}
+button[name="tombol"]{
+	width:75%;
+}
+/*close*/
+
+/*rincian pesanan*/
+.pengisian_beli{
+	padding:2%;
+}
+/*close*/
+
+/*balas chat*/
+.header_chat{
+	width:100%;
+	height:auto;
+	background:#6aabff;
+	padding:1%;
+}
+.header_chat span{
+	display:inline-block;
+	font-size:20px;
+	font-weight:bold;
+	width:100%;
+	margin:1% auto;
+	text-align:center;
+}
+.isi_chat{
+	width:30%;
+	height:auto;
+	margin:2%;
+	border-radius:50px;
+	border:1px solid;
+	padding:2%;
+}
+.isi_chat_admin{
+	width:30%;
+	height:auto;
+	margin:2%;
+	border-radius:50px;
+	border:1px solid;
+	padding:2%;
+	float:right;
+}
+.tempat_ketik{
+	width:93%;
+	height:auto;
+	background:white;
+	border-radius:25px;
+	padding:1%;
+	margin-left: 6%;
+	margin-top: -5%;
+}
+button[name="kirim"]{
+	border-radius:30px;
+	background-color: #6aabff;
+	width:13%;
+	color:white;
+}
+input[name="pesan"]{
+	border-color:transparent;
+	width:86%;
+	height:auto;
+}
+.smile i{
+	margin:1% 1%;
+}
+.atur{
+	clear:both;
+}
+span[name="admin"]{
+	display:inline-block;
+	margin-left: 90%;
+}
+.tombol_simpan{
+	width:24%;
+	margin:auto;
+	margin-top:-3%;
+	padding:3%;
+}
+/*close*/
+
+/*pengaturan*/
+.atur_gambar{
+	width:29%;
+	margin:7%;
+}
+span[name="pengaturan"]{
+	display:inline-block;
+	width:85%;
+	text-align:center;
+	color:black;
+	padding:6%;
+	font-size: 25px;
+	font-weight: bold;
+}
+.tempat_isi{
+	width: 50%;
+	float:right;
+	margin:-43% -5%;
+}
+.inpyut{
+	margin:1%;
+}
+.inpyut input[id="gaya"],input[id="kirim_pesanan"]{
+	display:flex;
+	margin-top:-7%;
+	margin-left:26%;
+	border:none;
+	border-bottom: ridge;
+	border-bottom-style: ridge;
+	width:43%;
+}
+.inpyut input[name="kelamin"], .input_prodak input[name="ukuran"]{
+	margin-left:7%;
+}
+/*close*/
+
+/*omset*/
+.bulan{
+	width: 86%;
+	margin:1% auto;
+}
+.tahun{
+	width: 7%;
+	background-color:#e9ecef;
+	/*margin: 1% auto;*/
+	display: inline-block;
+}
+.nama_bulan{
+	width: 14%;
+	height: auto;
+	padding: 1%;
+	background-color: #e9ecef;
+	margin: 1%;
+	display: inline-block;
+}
+.tanggal_cek{
+	width: 11%;
+	height: auto;
+	padding: 1%;
+	background-color: #e9ecef;
+	margin: 1%;
+	display: inline-block;
+}
+span[name="hari"]{
+	display:inline-block;
+	margin: 1% 4%;
+	font-weight: bold
+}
+/*close*/
+
+/*barang baru*/
+.prodak_baru{
+	padding:2%;
+	display: inline-block;
+	width:49%;
+}
+.pindah{
+	font-size:16px;
+	text-align:center;
+	font-weight:bold;
+	margin:2%;
+}
+.prodak_baru1{
+	padding:2%;
+	width:49%;
+	float:right;
+}
+.input_prodak{
+	width: 40%;
+}
+.input_prodak input[type="text"],.input_prodak input[type="number"]{
+	display: flex;
+	margin-top: -12%;
+	margin-left: 58%;
+}
+input[name="kota"],input[name="kd_pos"]{
+	margin-left:0%;
+	border:none;
+	border-bottom: ridge;
+	width:100%;
+}
+input[name="kd_prodak"]{
+	margin-left: 0%;
+	border:none;
+	background-color: transparent;
+	color:black;
+}
+/*close*/
+
+.pesan{
+	width:50%;
+	margin:auto;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 10%;
+}
